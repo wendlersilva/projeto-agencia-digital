@@ -19,6 +19,14 @@ body {
     margin: auto;
 }
 
+.imagem {
+    text-align: center;
+}
+
+.hero_title {
+    margin-top: 0;
+}
+
 .header-menu {
     list-style-type: none;
     padding: 0;
@@ -104,6 +112,11 @@ img {
     padding: 1rem;
 }
 
+.testemunho_thumb {
+    width: 8.125rem;
+    height: 8.125rem;
+}
+
 .contato {
     background-color: var(--gray);
     border-radius: 5px;
@@ -165,11 +178,38 @@ img {
     padding-bottom: 4rem;
 }
 
+.contato_title {
+    margin-top: 0;
+}
+
 .row>.sm-12 {
     grid-column: 1 / -1;
 }
 
 @media screen and (min-width: 46.25em) {
+
+    body {
+        text-align: left;
+    }
+
+    .header-menu {
+        margin: 0;
+    }
+
+    .header-menu li {
+        display: inline-block;
+        margin-left: 1.75rem;
+    }
+
+    .header-menu a {
+        padding: 1rem;
+    }
+
+    .testemunho {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
 
     .row>.md-3 {
         grid-column: span 3;
