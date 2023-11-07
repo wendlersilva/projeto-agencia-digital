@@ -357,6 +357,18 @@ img {
     padding-left: 1rem;
 }
 
+.menu-btn:checked~.header-menu {
+    max-height: 100vh;
+}
+
+.menu-btn:checked+.menu-icon .nav-icon {
+    background-color: transparent;
+}
+
+.header-menu:focus-within {
+    max-height: 100vh;
+}
+
 @media screen and (min-width: 46.25em) {
     .header-menu {
         position: static;
